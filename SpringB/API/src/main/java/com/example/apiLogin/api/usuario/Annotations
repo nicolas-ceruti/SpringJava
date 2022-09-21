@@ -1,0 +1,15 @@
+// localhost:8088/usuario/getAll
+
+//8088 = porta que está rodando o Tomcat
+
+
+//create
+{
+   "senha": "lucas",
+   "usuario": "lucas",
+   "latitude": "",
+   "longitude": ""
+}
+
+
+//login
