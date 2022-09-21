@@ -1,0 +1,24 @@
+CREATE DATABASE login_api;
+
+
+CREATE TABLE `usuarios` (
+  `id` bigint NOT NULL AUTO_INCREMENT,
+  `senha` varchar(255) DEFAULT NULL,
+  `usuario` varchar(255) DEFAULT NULL,
+  `latitude` varchar(255) DEFAULT NULL,
+  `longitude` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+INSERT INTO `login_api`.`usuarios`
+(`id`,
+`senha`,
+`usuario`,
+`latitude`,
+`longitude`)
+VALUES
+(<{id: }>,
+<{senha: }>,
+<{usuario: }>,
+<{latitude: }>,
+<{longitude: }>);
